@@ -33,4 +33,15 @@
 // library Aos
    
     AOS.init();
+
+
+// dark Mode
+
+const darkMode = document.getElementById('darkMode');
+const p = document.querySelectorAll('p');
+
+darkMode.onclick = function(){
+    document.body.classList.toggle('bg-black');
+    p[0,1,2].classList.toggle('text-white');
+}
   
